@@ -6,11 +6,24 @@ body {
 
 /*Navegação
 ========================================*/
+
+header{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+    background-color: #F0F0F0!important;
+}
+
+header > div.container {
+    
+}
+
+
 .navbar-toggler {
     padding:0px;
+    border:none;
 }
 
 .navbar-toggler-icon {
     width: 24px;
     height: 24px;
 }
+
