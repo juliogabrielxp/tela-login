@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+body, html {
+    height: 100%;
+}
+
+root {
+    --roxo:#A435F0;
+}
+
 body {
     background-color: #FFFFFF;
 }
@@ -9,11 +17,7 @@ body {
 
 header{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
-    background-color: #F0F0F0!important;
-}
-
-header > div.container {
-    
+    background-color: #FFFFFF;
 }
 
 
@@ -27,3 +31,57 @@ header > div.container {
     height: 24px;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: purple;
+}
+
+/*Formulário 
+======================================================================*/
+
+.form-control {
+    border-radius:0px;
+    border: 1px solid black;
+}
+
+.btn.login {
+    background: #A435F0;
+    color: #FFFFFF;
+    font-weight: 700;
+    border-radius:0px;
+}
+
+#outras-opções-login {
+    color: #6a6f73;
+    font-weight: 300;
+}
+
+.btn-form {
+    border-radius:0;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.btn-criar-conta {
+    color: #653296;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+/*Rodapé 
+===================================================== */
+
+footer {
+    background-color: #2D2F31;
+    color: white;
+}
+
+.destaque {
+    color: #C0C4FC;
+}
+
+.btn-idioma {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius:0;
+}
